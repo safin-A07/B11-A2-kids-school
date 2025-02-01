@@ -9,11 +9,462 @@
   .display-flex{
     display: flex;
   }
+  nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .marquee{
+    color: black;
+    background-color: orange;
+    margin-bottom: 40px;
+  }
 /* All button style in here: */
   .contect-btn{
     background-color: orange;
     color: white;
+    font-size: 20px;
+    font-weight: 600px;
     border-radius: 10px;
     width: 197px;
     height: 50px;
   }
+  .home-btn{
+    max-width: 347px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .btn-home{
+    width: 58px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: orange;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    
+  }
+  .btn-about{
+    width: 58px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: skyblue;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    
+  }
+  .btn-class{
+    width: 58px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #05D4DF;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    
+  }
+  .btn-admission{
+    width: 58px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #5D58EF;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  .content-btn-1{
+    color: #64C8FF;
+    font-size: 15px;
+    font-weight: 500px;
+    background-color: white;
+    border: none;
+  }
+  .content-btn-2{
+    color: orange;
+    font-size: 15px;
+    font-weight: 500px;
+    background-color: white;
+    border: none;
+  }
+  .content-btn-3{
+    color: #8700FF;
+    font-size: 15px;
+    font-weight: 500px;
+    background-color: white;
+    border: none;
+  }
+  
+  /* header styles */
+  .header-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  /* .img-div{
+    margin-left: 100px;
+  } */
+  .header-title{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .header-des{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: -25px;
+  }
+  .enroll-btn{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 10px;
+    width: 197px;
+    height: 50px;
+  }
+  .view-btn{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 10px;
+    width: 197px;
+    height: 50px;
+
+  }
+  /* body part curiculum section */
+  .curriculum{
+    background-image: url(../assets/bg.png);
+  }
+  .container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+    
+  }
+  .content-1{
+    max-width: 367px;
+    border: 2px solid wheat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #64C8FF, transparent 20%);
+    
+    
+  }
+  .content-2{
+    border: 2px solid wheat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, orange, transparent 20%);
+    
+  }
+  .content-3{
+    border: 2px solid wheat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #8700FF, transparent 20%);
+  }
+  .curiculum-title{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .curiculum-des{
+    font-size: 15px;
+    font-weight: 500px;
+    color: #808080;
+  }
+  .curriculum-header{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700px;
+  }
+  .arrow{
+    max-width: 130px;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* stories section */
+  .stories{
+    background-image: url(../assets/bg.png);
+    
+  }
+  .gallary{
+    max-width: 1160px;
+    margin: 0 auto; 
+    margin-top: 30px;
+    display: flex;
+    background: linear-gradient(to top, #FFD997, transparent 20%);
+  }
+  .big-pic{
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  #difrent-btn{
+    width: 174px;
+    height: 47px;
+    /* padding: 20px 42px; */
+    margin-left: ;
+    margin-top: -300px;
+   
+    background-color: #3CD8E8;
+    font-size: 15px;
+    font-weight: 600px;
+    color: white;
+    border-radius: 25px;
+  }
+  .small-pictures{
+    max-width: 601px;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px;
+   
+  }
+  .pic-1{
+    max-width: 240px;
+  }
+  .pic-size{
+    max-width: 240px;
+  }
+  .btn-p{
+    background-color: white;
+    /* border: 1px solid black; */
+  }
+  .last-btn-div{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-section{
+    background-color: #01ACFD;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .footer-button{
+    border: none;
+    color: white;
+    background-color: #01ACFD;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .footer-des{
+    max-width: 400px;
+  }
+  .footer-main-div{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+
+  /* design for small screen */
+  /* @media screen  and (max-width :560px) { */
+
+    /* .logo-des {
+      display: none;
+    }
+    .contect-btn{
+      display: none;
+    }
+    .menu-container {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 100;
+  }
+
+  
+  .menu-icon {
+      width: 35px;
+      height: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+  }
+
+  .line {
+      width: 100%;
+      height: 4px;
+      background-color: black;
+      transition: 0.3s;
+  }
+
+
+  .home-btn {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      display: none;
+      flex-direction: column;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      width: 120px;
+  }
+  .home-btn button {
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      background-color: #3498db;
+      color: white;
+      transition: 0.3s;
+      margin: 5px 0;
+      text-align: left;
+  }
+
+  .home-btn button:hover {
+      background-color: #2980b9;
+  }
+    .logo{
+      margin-bottom: 10px;
+    }
+    nav{
+      width: 560px;
+      border-bottom: 2px solid orange;
+    }
+    .header-section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .header-title{
+      font-size: 32px;
+      font-weight: 700px;
+    }
+    .curriculum{
+      display: grid;
+      grid-template-columns: repeat(1 ,1fr);
+    }
+    .container{
+      display: grid;
+      grid-template-columns: repeat(1 ,1fr);
+    } */
+     
+  /* } */
+      
+    /* }
+    .header-title-div{
+      max-width: 100%;
+    }
+    .img-div{
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
+    } 
+    } */
+    @media screen and (max-width: 560px) {
+      /* Navbar */
+      nav {
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+      }
+      
+      .menu-container {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .home-btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .home-btn button {
+          width: 100%;
+          margin: 5px 0;
+      }
+      .contect-btn{
+        display: none;
+      }
+      
+      /* Header */
+      .header-section {
+          flex-direction: column-reverse;
+          text-align: center;
+      }
+      
+      .header-title {
+          font-size: 28px;
+      }
+      
+      .header-des {
+          font-size: 16px;
+      }
+      
+      .img-div img {
+          width: 100%;
+          height: auto;
+      }
+      
+      /* Curriculum Section */
+      .container {
+          grid-template-columns: 1fr;
+      }
+      
+      .content-1, .content-2, .content-3 {
+          max-width: 100%;
+          padding: 15px;
+      }
+      
+      /* Stories Section */
+      .gallary {
+          flex-direction: column;
+          align-items: center;
+      }
+      .big-pic{
+        display: none;
+      }
+      .small-pictures {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .small-pictures {
+          grid-template-columns: 1fr;
+          gap: 20px;
+      }
+      
+      /* Footer */
+      .footer-main-div {
+          flex-direction: column;
+          margin-left: 20px;
+          
+      }    
+      .footer-button {
+          text-align: center;
+          margin: 5px 0;
+      }
+  }
+  
